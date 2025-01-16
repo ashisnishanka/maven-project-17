@@ -3,10 +3,10 @@ pipeline{
 	  label 'windows' 
 	}
 	
- tools{
-        jdk 'JAVA_HOME1'
-        maven 'M2_HOME1'
-    }
+ // tools{
+ //        jdk 'JAVA_HOME1'
+ //        maven 'M2_HOME1'
+ //    }
      
 	  
 	  stages{
