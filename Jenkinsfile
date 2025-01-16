@@ -1,8 +1,8 @@
 pipeline{
-  agent { 
-	  label 'windows' 
-	}
-	
+ //  agent { 
+	//   label 'windows' 
+	// }
+	agent any
  // tools{
  //        jdk 'JAVA_HOME1'
  //        maven 'M2_HOME1'
