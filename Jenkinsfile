@@ -30,6 +30,11 @@ pipeline
 	}
   
  }
- 
+ stage(deploy){
+    steps{
+	 echo "my deployment"
+	}
+  
+ }
  }
 }
